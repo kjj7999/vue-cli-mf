@@ -45,7 +45,15 @@
     "parserOptions": {
       "ecmaVersion": 2020
     },
-    "rules": {}
+    "rules": {
+      "max-len": [
+        "error",
+        {
+          "code": 300,
+          "ignoreTemplateLiterals": true
+        }
+      ]
+    }
   },
   "browserslist": [
     "> 1%",
